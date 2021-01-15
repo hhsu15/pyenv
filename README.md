@@ -27,3 +27,11 @@ SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Dev
 ```
 
 - If you cannot switch to another python version using `pyenv global python_version`, try to see if you have `.python_version` in your root directory and remove it.
+
+
+### If you can't find `jupyter` command
+
+Add this line to `.zshrc`
+```
+export PATH="/anaconda3/bin:$PATH"
+```
